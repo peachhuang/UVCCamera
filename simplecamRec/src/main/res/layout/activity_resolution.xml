@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ResolutionActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="首选分辨率"
+        android:textColor="@color/colorRed"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_width"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="宽度"
+            android:textSize="16sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="640"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorGrey"/>
+
+    <LinearLayout
+        android:id="@+id/ll_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="高度"
+            android:textSize="16sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="480"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorGrey"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="如果您的摄像头不支持您定义的分辨率，USB摄像头将默认使用640×480.如果您的摄像头不支持从UI更改分辨率（例如，更改分辨率时黑屏），您也可以使用此选项更改分辨率，可能需要重新插拔摄像头。"
+        android:textColor="@color/colorRed"
+        android:textSize="16sp"/>
+
+</LinearLayout>

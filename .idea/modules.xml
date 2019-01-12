@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/simpleTexturecam/simpleTexturecam.iml" filepath="$PROJECT_DIR$/simpleTexturecam/simpleTexturecam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simpleTexturecam2/simpleTexturecam2.iml" filepath="$PROJECT_DIR$/simpleTexturecam2/simpleTexturecam2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplecamRec/simplecamRec.iml" filepath="$PROJECT_DIR$/simplecamRec/simplecamRec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stduvccam.iml" filepath="$PROJECT_DIR$/stduvccam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxcam/zxcam.iml" filepath="$PROJECT_DIR$/zxcam/zxcam.iml" />
+    </modules>
+  </component>
+</project>

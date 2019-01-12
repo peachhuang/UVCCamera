@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!--在这里添加item，然后在main中进行引入
+    showAsAction  ：表示当前的item是否在toolbar上显示,有五种状态，常用的三种:always，ifroom，never
+    icon ：要显示的图片
+
+    title：要显示的文字
+    -->
+
+    <item
+        android:id="@+id/sports"
+        android:icon="@mipmap/title_sport"
+        android:title="Sport"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/control"
+        android:icon="@mipmap/title_controls"
+        android:title="Control"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/usb"
+        android:icon="@mipmap/title_usb"
+        android:title="USB"
+        app:showAsAction="always" />
+
+    <!--要隐藏的menu item 其showAsAction设置为never属性-->
+    <item
+        android:id="@+id/one"
+        android:icon="@mipmap/menu"
+        android:title="one"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/two"
+        android:icon="@mipmap/menu"
+        android:title="two"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/three"
+        android:icon="@mipmap/menu"
+        android:title="three"
+        app:showAsAction="never" />
+
+</menu>

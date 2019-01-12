@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sports"
+        android:icon="@mipmap/title_sport"
+        android:title="Sport"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/control"
+        android:icon="@mipmap/title_controls"
+        android:title="Control"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/usb"
+        android:icon="@mipmap/title_usb"
+        android:title="USB"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/one"
+        android:icon="@mipmap/menu"
+        android:title="one"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/two"
+        android:icon="@mipmap/menu"
+        android:title="two"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/three"
+        android:icon="@mipmap/menu"
+        android:title="three"
+        app:showAsAction="never" />
+
+</menu>

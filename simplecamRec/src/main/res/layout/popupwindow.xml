@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popupwindow_shape_corner"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_security_popup"
+        android:textColor="#5bf"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center|start"
+        android:layout_marginLeft="20dp"
+        android:text="安全弹出"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_resolution"
+        android:textColor="#5bf"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center|start"
+        android:layout_marginLeft="20dp"
+        android:text="分辨率"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_flip_horizontal"
+        android:textColor="#5bf"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center|start"
+        android:layout_marginLeft="20dp"
+        android:text="水平翻转"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_flip_vertical"
+        android:textColor="#5bf"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center|start"
+        android:layout_marginLeft="20dp"
+        android:text="垂直翻转"
+        android:textSize="20sp" />
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:background="@color/colorPrimary"/>-->
+    <TextView
+        android:id="@+id/tv_into_background"
+        android:textColor="#5bf"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center|start"
+        android:layout_marginLeft="20dp"
+        android:text="进入后台运行"
+        android:textSize="20sp" />
+
+</LinearLayout>
